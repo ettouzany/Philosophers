@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/net-touz/Desktop/philo'
+gcc -Wall -Wextra -Werror  -pthread   -c -o main.o main.c
+ 
+gcc main.o -o philosophers 
+make: Leaving directory `/Users/net-touz/Desktop/philo'
+ 
